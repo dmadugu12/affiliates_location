@@ -67,7 +67,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <h1> 
-                    <a href="affiliate">Find Affiliates Close to Me</a>
+                    <a href="affiliate">Affiliates within 100km of Office</a>
                 </h1>
             </div>
         </div>
