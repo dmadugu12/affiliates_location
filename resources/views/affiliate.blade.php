@@ -69,6 +69,22 @@
                 <h1> 
                     <a href="affiliate">Affiliates within 100km of Office</a>
                 </h1>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Name</th>
+                            <th>Affiliate ID</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                        </tr>  
+                        @foreach ($affiliates as $affiliate)
+                            <tr>
+                                <th>{{ $affiliate->name }}</th>
+                                <th>{{ $affiliate->affiliate_id }}</th>
+                                <th>{{ $affiliate->latitude }}</th>
+                                <th>{{ $affiliate->longitude }}</th>
+                            </tr>    
+                        @endforeach
+                    </table>
             </div>
         </div>
     </body>
