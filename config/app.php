@@ -15,6 +15,19 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    /**
+     * Retrieve the office locations set at environmental variables. 
+     */
+    'dublin_office_longitude' => env('DUBLIN_OFFICE_LONGITUTE', '-6.2535495'),
+    'dublin_office_latitude'  => env('DUBLIN_OFFICE_LATITUDE', '53.3340285'),  
+
+    /**
+     * Retrieve the file from the system
+     * 
+     */
+    'file' => env('FILE_LOCATION', '/storage/app/affiliates.txt'),
+
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
